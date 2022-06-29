@@ -11,14 +11,14 @@
       integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    /> 
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -30,7 +30,9 @@
           </svg>
         </button>
         <form class="contact-form">
-          <p class="contact-form-title">Оставьте свои данные, мы вам перезвоним</p>
+          <p class="contact-form-title">
+            Оставьте свои данные, мы вам перезвоним
+          </p>
           <label class="contact-form-field">
             <span class="contact-form-field-span">Имя</span>
             <span class="contact-form-input-wrapper">
@@ -92,49 +94,55 @@
           </label>
           <div class="contact-form-checkbox-item">
             <input
-            class="contact-form-checkbox visually-hidden"
-            id="checkbox-policy"
-            type="checkbox"
-            name="user_policy"
-            required
-          />
-          <label class="contact-form-checkbox-label" for="checkbox-policy"
-            >Соглашаюсь с рассылкой и принимаю&nbsp;
-            <a class="contact-form-checkbox-link" href="">Условия договора</a></label
-          >
+              class="contact-form-checkbox visually-hidden"
+              id="checkbox-policy"
+              type="checkbox"
+              name="user_policy"
+              required
+            />
+            <label class="contact-form-checkbox-label" for="checkbox-policy"
+              >Соглашаюсь с рассылкой и принимаю&nbsp;
+              <a class="contact-form-checkbox-link" href=""
+                >Условия договора</a
+              ></label
+            >
           </div>
           <button class="contact-form-btn" type="submit">Отправить</button>
         </form>
       </div>
     </div>
     <header class="header">
-      <div class="container">
-        <a class="logo" href="#"
-          >Web<span class="logo-color-black">Studio</span></a
+      <div class="container header__container">
+        <a class="logo link" href="#"
+          >Web<span class="logo__text logo__text--black">Studio</span></a
         >
-        <nav class="navigation">
-          <ul class="menu">
-            <li class="menu-item">
-              <a class="menu-link current" href="./index.html">Студия</a>
+        <nav class="header__navigation navigation">
+          <ul class="navigation__list list">
+            <li class="navigation__item">
+              <a
+                class="navigation__link navigation__link--current link"
+                href="./index.html"
+                >Студия</a
+              >
             </li>
-            <li class="menu-item">
-              <a class="menu-link" href="./portfolio.html">Портфолио</a>
+            <li class="navigation__item">
+              <a class="navigation__link link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li><a class="menu-link" href="contacts">Контакты</a></li>
+            <li><a class="navigation__link link" href="contacts">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="header-contact">
-          <li class="header-contact-item">
-            <a class="header-link" href="mailto:info@devstudio.com">
-              <svg width="16" height="12" class="social-list__icon">
+        <ul class="header__contact contact list">
+          <li class="contact__item">
+            <a class="contact__link link" href="mailto:info@devstudio.com">
+              <svg width="16" height="12" class="contact__icon">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               <span>info@devstudio.com</span></a
             >
           </li>
-          <li class="header-contact-item">
-            <a class="header-link" href="tel:+38-096-111-11-11">
-              <svg width="10" height="16" class="social-list__icon">
+          <li class="contact__item">
+            <a class="contact__link link" href="tel:+38-096-111-11-11">
+              <svg width="10" height="16" class="contact__icon">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               <span>+38 096 111 11 11</span></a
@@ -144,10 +152,10 @@
       </div>
     </header>
     <main>
-      <section class="hero-block">
+      <section class="hero">
         <div class="container">
-          <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
-          <button class="hero-button" data-modal-open type="button">
+          <h1 class="hero__text">Эффективные решения для вашего бизнеса</h1>
+          <button class="hero__button" data-modal-open type="button">
             Заказать услугу
           </button>
         </div>
@@ -510,15 +518,16 @@
         </div>
         <div class="form-mail">
           <form action="">
-              <p class="social-title">Подпишитесь на рассылку</p>
-              <div class="form-mail-wrapper">
-                <input class="form-mail-frame" type="text" placeholder="E-mail">
-                <button class="form-mail-button" type="submit">Подписаться
-                  <svg class="form-mail-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-send"></use>
-                  </svg>
-                </button>
-              </div>
+            <p class="social-title">Подпишитесь на рассылку</p>
+            <div class="form-mail-wrapper">
+              <input class="form-mail-frame" type="text" placeholder="E-mail" />
+              <button class="form-mail-button" type="submit">
+                Подписаться
+                <svg class="form-mail-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
           </form>
         </div>
       </div>
