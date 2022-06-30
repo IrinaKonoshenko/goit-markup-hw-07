@@ -1,9 +1,6 @@
 .dream {
   background-color: var(--white-100-color);
   &__blocks {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     flex-wrap: wrap;
     margin: 0 -15px;
@@ -22,7 +19,6 @@
     line-height: 1.18;
     text-align: center;
     color: var(--base-color);
-    margin: 0;
     margin-bottom: 10px;
   }
   &__profession {
@@ -30,7 +26,6 @@
     line-height: 1.18;
     text-align: center;
     color: var(--gray-color);
-    margin: 0;
     margin-bottom: 16px;
   }
   &__content {

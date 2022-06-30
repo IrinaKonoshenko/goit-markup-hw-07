@@ -1,20 +1,29 @@
 @import './utils/variables';
 @import './base/common';
 
-
-@import './components/header';
 @import './components/logo';
 @import './components/navigation';
 @import './components/contact';
-
-@import './components/hero';
-@import './components/advantages';
-@import './components/pages';
-@import './components/dream';
-@import './components/social-list';
-@import './components/footer';
-@import './components/clients';
 @import './components/form-mail';
 @import './components/modal';
 @import './components/tabs';
-@import './components/project';
+@import './components/social-list';
+@import './components/page-title';
+@import './components/section';
+@import './components/container';
+
+@import './components/advantages-item';
+@import './components/backdrop';
+@import './components/checkbox';
+@import './components/form-field';
+@import './components/form';
+@import './components/pages-item';
+
+@import './layout/advantages';
+@import './layout/clients';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/pages';
+@import './layout/dream';
+@import './layout/footer';
+@import './layout/project';

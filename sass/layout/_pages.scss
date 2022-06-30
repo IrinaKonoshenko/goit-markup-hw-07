@@ -1,11 +1,10 @@
 .pages {
-  padding-top: 47px;
+  padding-top: 0;
   &__images {
     list-style-type: none;
     display: flex;
     margin: 0 -15px;
     flex-wrap: wrap;
-    padding: 0;
   }
   &__item {
     margin: 0 15px;

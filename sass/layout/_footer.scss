@@ -17,7 +17,6 @@
   }
   &__link {
     color: var(--opacity-link-color);
-    text-decoration: none;
     display: block;
     margin-top: 9px;
     &:hover {
@@ -31,7 +30,6 @@
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin: 0;
     margin-bottom: 20px;
   }
   &__mail{
